@@ -9,7 +9,7 @@ const queue = new Map();
 const client = new Discord.Client();
 
 
-const prefix = "1";
+const prefix = "R";
 client.on('message', async msg => { // eslint-disable-line
 	if (msg.author.bot) return undefined;
 	
